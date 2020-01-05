@@ -1,0 +1,435 @@
+﻿[
+{
+        "sensor_id":137,
+        "sensor_name":"PUP-2",
+        "device_id":64,
+        "chnum":1,
+        "device_id_dec":69753,
+        "device_id_hex":"11079",
+        "SPOINTGUID":"AF0110BZ7PZ0002"
+    },
+{
+        "sensor_id":105,
+        "sensor_name":"PUP-1",
+        "device_id":32,
+        "chnum":1,
+        "device_id_dec":69747,
+        "device_id_hex":"11073",
+        "SPOINTGUID":"AF0070BZ5PZ0001"
+    },
+{
+        "sensor_id":136,
+        "sensor_name":"PUP-3",
+        "device_id":63,
+        "chnum":1,
+        "device_id_dec":69735,
+        "device_id_hex":"11067",
+        "SPOINTGUID":"AF0110BZ8PZ0003"
+    },
+{
+        "sensor_id":107,
+        "sensor_name":"UPR1",
+        "device_id":34,
+        "chnum":1,
+        "device_id_dec":66050,
+        "device_id_hex":"10202",
+        "SPOINTGUID":"AG0030B01PZ0001"
+    },
+{
+        "sensor_id":108,
+        "sensor_name":"PR-洨河南",
+        "device_id":35,
+        "chnum":1,
+        "device_id_dec":65904,
+        "device_id_hex":"10170",
+        "SPOINTGUID":"DF0602BCJPZ0001"
+    },
+{
+        "sensor_id":109,
+        "sensor_name":"UPR3",
+        "device_id":36,
+        "chnum":1,
+        "device_id_dec":69715,
+        "device_id_hex":"11053",
+        "SPOINTGUID":"AG0030B03PZ0003"
+    },
+{
+        "sensor_id":110,
+        "sensor_name":"UPR10",
+        "device_id":37,
+        "chnum":1,
+        "device_id_dec":66053,
+        "device_id_hex":"10205",
+        "SPOINTGUID":"AG0030B07PZ0010"
+    },
+{
+        "sensor_id":111,
+        "sensor_name":"PL-山尹村",
+        "device_id":38,
+        "chnum":1,
+        "device_id_dec":69721,
+        "device_id_hex":"11059",
+        "SPOINTGUID":"DF0592BCJPZ0001"
+    },
+{
+        "sensor_id":112,
+        "sensor_name":"UPR11",
+        "device_id":39,
+        "chnum":1,
+        "device_id_dec":69752,
+        "device_id_hex":"11078",
+        "SPOINTGUID":"AG0030B07PZ0011"
+    },
+{
+        "sensor_id":113,
+        "sensor_name":"UPR5",
+        "device_id":40,
+        "chnum":1,
+        "device_id_dec":69716,
+        "device_id_hex":"11054",
+        "SPOINTGUID":"AG0030B04PZ0005"
+    },
+{
+        "sensor_id":114,
+        "sensor_name":"PL-普连河",
+        "device_id":41,
+        "chnum":1,
+        "device_id_dec":69748,
+        "device_id_hex":"11074",
+        "SPOINTGUID":"DF0612BCJPZ0006"
+    },
+{
+        "sensor_id":115,
+        "sensor_name":"UPR15",
+        "device_id":42,
+        "chnum":1,
+        "device_id_dec":69728,
+        "device_id_hex":"11060",
+        "SPOINTGUID":"AG0030B10PZ0015"
+    },
+{
+        "sensor_id":116,
+        "sensor_name":"UPR8",
+        "device_id":43,
+        "chnum":1,
+        "device_id_dec":66049,
+        "device_id_hex":"10201",
+        "SPOINTGUID":"AG0030B05PZ0008"
+    },
+{
+        "sensor_id":117,
+        "sensor_name":"UPR4",
+        "device_id":44,
+        "chnum":1,
+        "device_id_dec":66051,
+        "device_id_hex":"10203",
+        "SPOINTGUID":"AG0030B03PZ0004"
+    },
+{
+        "sensor_id":118,
+        "sensor_name":"UPR9",
+        "device_id":45,
+        "chnum":1,
+        "device_id_dec":69750,
+        "device_id_hex":"11076",
+        "SPOINTGUID":"AG0030B06PZ0009"
+    },
+{
+        "sensor_id":119,
+        "sensor_name":"PR-台头沟",
+        "device_id":46,
+        "chnum":1,
+        "device_id_dec":69781,
+        "device_id_hex":"11095",
+        "SPOINTGUID":"DF0632BCJPZ0001"
+    },
+{
+        "sensor_id":120,
+        "sensor_name":"PR-山尹村",
+        "device_id":47,
+        "chnum":1,
+        "device_id_dec":69718,
+        "device_id_hex":"11056",
+        "SPOINTGUID":"DF0592BCJPZ0002"
+    },
+{
+        "sensor_id":121,
+        "sensor_name":"PL-洨河南",
+        "device_id":48,
+        "chnum":1,
+        "device_id_dec":69767,
+        "device_id_hex":"11087",
+        "SPOINTGUID":"DF0602BCJPZ0002"
+    },
+{
+        "sensor_id":122,
+        "sensor_name":"UPR2",
+        "device_id":49,
+        "chnum":1,
+        "device_id_dec":65941,
+        "device_id_hex":"10195",
+        "SPOINTGUID":"AG0030B02PZ0002"
+    },
+{
+        "sensor_id":124,
+        "sensor_name":"UPR13",
+        "device_id":51,
+        "chnum":1,
+        "device_id_dec":69749,
+        "device_id_hex":"11075",
+        "SPOINTGUID":"AG0030B09PZ0013"
+    },
+{
+        "sensor_id":125,
+        "sensor_name":"UPR6",
+        "device_id":52,
+        "chnum":1,
+        "device_id_dec":65943,
+        "device_id_hex":"10197",
+        "SPOINTGUID":"AG0030B05PZ0006"
+    },
+{
+        "sensor_id":126,
+        "sensor_name":"PL-台头沟",
+        "device_id":53,
+        "chnum":1,
+        "device_id_dec":69782,
+        "device_id_hex":"11096",
+        "SPOINTGUID":"DF0632BCJPZ0002"
+    },
+{
+        "sensor_id":127,
+        "sensor_name":"UPR14",
+        "device_id":54,
+        "chnum":1,
+        "device_id_dec":69734,
+        "device_id_hex":"11066",
+        "SPOINTGUID":"AG0030B10PZ0014"
+    },
+{
+        "sensor_id":128,
+        "sensor_name":"UPR7",
+        "device_id":55,
+        "chnum":1,
+        "device_id_dec":65910,
+        "device_id_hex":"10176",
+        "SPOINTGUID":"AG0030B05PZ0007"
+    },
+{
+        "sensor_id":129,
+        "sensor_name":"UPL7",
+        "device_id":56,
+        "chnum":1,
+        "device_id_dec":69751,
+        "device_id_hex":"11077",
+        "SPOINTGUID":"AG0030B05PZL007"
+    },
+{
+        "sensor_id":130,
+        "sensor_name":"UPR12",
+        "device_id":57,
+        "chnum":1,
+        "device_id_dec":69717,
+        "device_id_hex":"11055",
+        "SPOINTGUID":"AG0030B08PZ0012"
+    },
+{
+        "sensor_id":131,
+        "sensor_name":"UPL14",
+        "device_id":58,
+        "chnum":1,
+        "device_id_dec":69745,
+        "device_id_hex":"11071",
+        "SPOINTGUID":"AG0030B10PZL014"
+    },
+{
+        "sensor_id":133,
+        "sensor_name":"PR-普连河",
+        "device_id":60,
+        "chnum":1,
+        "device_id_dec":69732,
+        "device_id_hex":"11064",
+        "SPOINTGUID":"DF0612BCJPZ0001"
+    },
+{
+        "sensor_id":134,
+        "sensor_name":"UPL15",
+        "device_id":61,
+        "chnum":1,
+        "device_id_dec":69730,
+        "device_id_hex":"11062",
+        "SPOINTGUID":"AG0030B10PZL015"
+    },
+{
+        "sensor_id":123,
+        "sensor_name":"PR-大宋楼",
+        "device_id":50,
+        "chnum":1,
+        "device_id_dec":65924,
+        "device_id_hex":"10184",
+        "SPOINTGUID":"DF0622BCJPZ0001"
+    },
+{
+        "sensor_id":132,
+        "sensor_name":"PL-大宋楼",
+        "device_id":59,
+        "chnum":1,
+        "device_id_dec":69737,
+        "device_id_hex":"11069",
+        "SPOINTGUID":"DF0622BCJPZ0002"
+    },
+{
+        "sensor_id":138,
+        "sensor_name":"PR1",
+        "device_id":65,
+        "chnum":1,
+        "device_id_dec":69968,
+        "device_id_hex":"11150",
+        "SPOINTGUID":"EG0092BJJPZ0002"
+    },
+{
+        "sensor_id":139,
+        "sensor_name":"PR2",
+        "device_id":66,
+        "chnum":1,
+        "device_id_dec":69960,
+        "device_id_hex":"11148",
+        "SPOINTGUID":"EG0092BCJPZ0007"
+    },
+{
+        "sensor_id":140,
+        "sensor_name":"PR3",
+        "device_id":67,
+        "chnum":1,
+        "device_id_dec":69958,
+        "device_id_hex":"11146",
+        "SPOINTGUID":"EG0102BJJPZ0001"
+    },
+{
+        "sensor_id":141,
+        "sensor_name":"PR4",
+        "device_id":68,
+        "chnum":1,
+        "device_id_dec":69969,
+        "device_id_hex":"11151",
+        "SPOINTGUID":"EG0112BJJPZ0001"
+    },
+{
+        "sensor_id":142,
+        "sensor_name":"PR5",
+        "device_id":69,
+        "chnum":1,
+        "device_id_dec":69985,
+        "device_id_hex":"11161",
+        "SPOINTGUID":"EG0112BCJPZ0003"
+    },
+{
+        "sensor_id":143,
+        "sensor_name":"PR6",
+        "device_id":70,
+        "chnum":1,
+        "device_id_dec":69961,
+        "device_id_hex":"11149",
+        "SPOINTGUID":"EG0112BJJPZ0005"
+    },
+{
+        "sensor_id":144,
+        "sensor_name":"PR7",
+        "device_id":71,
+        "chnum":1,
+        "device_id_dec":69974,
+        "device_id_hex":"11156",
+        "SPOINTGUID":"EG0112BJJPZ0006"
+    },
+{
+        "sensor_id":145,
+        "sensor_name":"PR8",
+        "device_id":72,
+        "chnum":1,
+        "device_id_dec":69957,
+        "device_id_hex":"11145",
+        "SPOINTGUID":"EG0112BCJPZ0007"
+    },
+{
+        "sensor_id":146,
+        "sensor_name":"PR9",
+        "device_id":73,
+        "chnum":1,
+        "device_id_dec":69977,
+        "device_id_hex":"11159",
+        "SPOINTGUID":"EG0112BCJPZ0008"
+    },
+{
+        "sensor_id":147,
+        "sensor_name":"PR10",
+        "device_id":74,
+        "chnum":1,
+        "device_id_dec":69973,
+        "device_id_hex":"11155",
+        "SPOINTGUID":"EG0122BJJPZ0001"
+    },	
+{
+        "sensor_id":148,
+        "sensor_name":"PR11",
+        "device_id":75,
+        "chnum":1,
+        "device_id_dec":69970,
+        "device_id_hex":"11152",
+        "SPOINTGUID":"EG0122BJJPZ0006"
+    },
+{
+        "sensor_id":149,
+        "sensor_name":"PR12",
+        "device_id":76,
+        "chnum":1,
+        "device_id_dec":69987,
+        "device_id_hex":"11163",
+        "SPOINTGUID":"EG0122BCJPZ0008"
+    },
+{
+        "sensor_id":150,
+        "sensor_name":"PR13",
+        "device_id":77,
+        "chnum":1,
+        "device_id_dec":69972,
+        "device_id_hex":"11154",
+        "SPOINTGUID":"EG0152BDSPZ0006"
+    },
+{
+        "sensor_id":151,
+        "sensor_name":"PR14",
+        "device_id":78,
+        "chnum":1,
+        "device_id_dec":69975,
+        "device_id_hex":"11157",
+        "SPOINTGUID":"EG0162BCJPZ0004"
+    },
+{
+        "sensor_id":152,
+        "sensor_name":"PR15",
+        "device_id":79,
+        "chnum":1,
+        "device_id_dec":69986,
+        "device_id_hex":"11162",
+        "SPOINTGUID":"BJ0021BPZPZ0001"
+    },
+{
+        "sensor_id":153,
+        "sensor_name":"PR16",
+        "device_id":80,
+        "chnum":1,
+        "device_id_dec":69984,
+        "device_id_hex":"11160",
+        "SPOINTGUID":"BJ0021BPZPZ0002"
+    },
+{
+        "sensor_id":154,
+        "sensor_name":"PR17",
+        "device_id":81,
+        "chnum":1,
+        "device_id_dec":69959,
+        "device_id_hex":"11147",
+        "SPOINTGUID":"BJ0021BPZPZ0011"
+    }
+	
+]

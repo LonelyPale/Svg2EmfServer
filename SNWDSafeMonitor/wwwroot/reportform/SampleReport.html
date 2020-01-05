@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>应用WEB报表客户端实现打印与数据导出 - 锐浪HTML5报表</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Description" content="锐浪HTML5报表应用WEB报表客户端实现打印与数据导出。" />
+    <meta name="Keywords" content="WEB报表,WEB打印,HTML5报表" />
+    <link href="/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/libs/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="/libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/libs/grhtml5-6.6-min.js" type="text/javascript"></script>
+    <script src="/libs/grwebapp.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            //创建报表显示器，参数指定其在网页中的占位标签的ID，关联的报表模板URL，关联的报表数据URL
+            //var reportViewer = rubylong.grhtml5.insertReportViewer("report_holder", "grf/1a.grf","../../data/DataCenter.ashx?data=Customer");
+            var reportViewer = rubylong.grhtml5.insertReportViewer("report_holder", "/grf/1a.grf.txt", "/grf/json.txt");
+            window.reportViewer = reportViewer;
+
+            reportViewer.start(); //启动报表运行，生成报表
+
+            //*这句特别重要*：只有在WEB报表客户端程序后，才能进行WebSocket通讯
+            webapp_urlprotocol_startup(); //启动WEB报表客户端程序，以便侦听接受 WebSocket 数据
+        });
+
+        function webapp(args) {
+            //args.report = "/grf/1a.grf";
+            //args.data = "/data/DataCenter.ashx?data=Customer&name";
+
+            args.report = reportViewer.reportURL;
+            args.data = reportViewer.dataURL;
+
+            webapp_ws_ajax_run(args);
+        }
+    </script>
+
+    <style type="text/css">
+        #toolbar {
+            display: block;
+            position: fixed;
+            width: 100%;
+            height: 40px;
+            margin: 0;
+            padding: 4px 4px;
+            border: solid 1px;
+            background-color: #fae3e3;
+        }
+
+        #report_holder {
+            padding-top: 40px;
+        }
+
+        .rdock {
+            position: absolute;
+            right: 8px;
+        }
+    </style>
+</head>
+<body>
+<div id="toolbar" class="row" align="center">
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({});'>打印预览</a>
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({"type":"print"});'>打印...</a>
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({"type":"print","showOptionDlg":"false"});'>直接打印</a>
+
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({"type":"pdf"});'>导出PDF</a>
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({"type":"xls"});'>导出Excel</a>
+    <div class="btn-group btn-group-sm">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">数据导出<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href='javascript:webapp({"type":"pdf"});'>PDF</a></li>
+            <li><a href='javascript:webapp({"type":"xls"});'>Excel</a></li>
+            <li><a href='javascript:webapp({"type":"rtf"});'>RTF</a></li>
+            <li><a href='javascript:webapp({"type":"csv"});'>CSV</a></li>
+            <li><a href='javascript:webapp({"type":"txt"});'>文本</a></li>
+            <li><a href='javascript:webapp({"type":"img"});'>图像</a></li>
+        </ul>
+    </div>
+
+    <a class="btn btn-sm btn-primary" role="button" href='javascript:webapp({"type":"grd"});'>生成报表文档</a>
+
+    <a class="btn btn-sm btn-primary rdock" role="button" href="About" target="_blank">执行任务无响应帮助</a>
+</div>
+
+<div id="report_holder" align="center">
+    HTML5报表占位标签
+</div>
+</body>
+</html>
