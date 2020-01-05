@@ -5,11 +5,11 @@
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
-*.test
+# MacOS
+.DS_Store
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# VS
+.vs
+bin
+obj
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
