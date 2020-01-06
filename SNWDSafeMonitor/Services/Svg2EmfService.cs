@@ -14,6 +14,7 @@ namespace SNWDSafeMonitor.Services
     {
         /// <summary>
         /// 转换svg到emf
+        /// dotnet 的第三方组件 SVG 能自动处理 svg 格式内的 image 标签的 href 属性，转换成 emf 时，无需再手动绘制背景图。
         /// </summary>
         /// <param name="svgContent">svg</param>
         /// <returns>emf</returns>
