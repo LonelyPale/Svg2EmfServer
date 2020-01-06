@@ -39,7 +39,9 @@ namespace SNWDSafeMonitor
             {
                 c.SwaggerDoc("apidoc", new Info { Title = "NSBDAQJCAPI", Version = "v1" });
             });
-           
+
+            services.AddHttpClient(); //注册 HttpClientFactory
+
             //services.AddErrorCheckService();
             //services.AddMultiloggerService();
             //services.AddCurrentDataAnaService();
