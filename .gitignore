@@ -8,8 +8,17 @@
 # MacOS
 .DS_Store
 
-# VS
-.vs
-bin
-obj
+# Idea
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# NodeJS
+node_modules/
 
