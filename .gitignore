@@ -5,8 +5,11 @@
 *.so
 *.dylib
 
-# MacOS
+# MacOS System Files
 .DS_Store
+
+# Win System Files
+Thumbs.db
 
 # Idea
 .idea/
@@ -21,4 +24,3 @@ obj/
 
 # NodeJS
 node_modules/
-
